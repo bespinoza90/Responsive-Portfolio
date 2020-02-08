@@ -1,0 +1,109 @@
+html{
+    background-color: bisque;
+}
+body{
+    background-color: gray;
+    margin: 50px
+    postion: relative;
+}
+img{
+    width: 200px;
+    float: left;
+    margin: 5px;
+
+  
+}
+.NavTitle {
+    float: left;
+    padding: 10px;
+    background-color: teal;
+    font-size: xx-large;
+    color: white
+    font-family:'Indie Flower', cursive;
+}
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header { 
+    background: white;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+
+}
+ul{
+    float: right;
+    margin: 10px;
+    justify-content: center;
+    color: lightgray;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding: 5px;
+}
+
+.NavItemSeparator {
+    border-right: 1px solid lightgrey;
+    border-right-width: 2px;
+}
+section {
+    padding: 20px;
+    background: white;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 1px solid lightgrey;
+
+}
+footer {
+    
+    background: gray;
+    margin: 20px 0 0 0;
+    border-top: 6px solid rgb(red, green, blue);
+    color: whitesmoke;
+}
+
+span {
+    color: rgb(red, green, blue);
+    justify-content: center;
+}
+
+.CopyrightText {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: xx-small;
+}
+
+.description {
+    color: gray;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+input[TYPE=TEXT], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid saddlebrown;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+h1 {
+    float: left;
+    padding: 10px;
+    background-color: teal;
+    font-size: xx-large;
+    color: white
+    font-family:'Indie Flower', cursive;
+}
+
+.portfoliowrap {
+    height: 300px;
+}
+Photo1 {float: top;
+    height: 10px;
+}
