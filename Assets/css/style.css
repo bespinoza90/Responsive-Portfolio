@@ -92,6 +92,10 @@ input[TYPE=TEXT], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+
+#container{display:inline-block;}
+
+
 h1 {
     float: left;
     padding: 10px;
@@ -104,6 +108,73 @@ h1 {
 .portfoliowrap {
     height: 300px;
 }
-Photo1 {float: top;
-    height: 10px;
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    section{ background-color: green;
+
+    }
 }
+   @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    section{ background-color: red;
+
+    }
+}
+@media screen and (max-width:750px){
+    section{ background-color: orangered}
+}
+@media screen and (max-width:850px){
+    section{ background-color: purple}
+}
+    @media screen and (min-width:1000px){
+        section{ background-color: hotpink;}
+        header{background-color: hotpink;}
+    }
+
+    @media screen and (min-width:1200px){
+        section{ background-color: blue}
+        header{background-color:greenyellow}
+    }
+    @media screen and (min-width:1400px){
+        section{ background-color: darkcyan}
+        header{background-color: darkred}
+    }@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    section{ background-color: green;
+
+    }
+}
+   @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    section{ background-color: red;
+
+    }
+}
+@media screen and (max-width:750px){
+    section{ background-color: orangered}
+}
+@media screen and (max-width:850px){
+    section{ background-color: purple}
+}
+    @media screen and (min-width:1000px){
+        section{ background-color: hotpink;}
+        header{background-color: hotpink;}
+    }
+
+    @media screen and (min-width:1200px){
+        section{ background-color: blue}
+        header{background-color:greenyellow}
+    }
+    @media screen and (min-width:1400px){
+        section{ background-color: darkcyan}
+        header{background-color: darkred}
+    }
